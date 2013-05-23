@@ -1,5 +1,5 @@
-(ns leiningen.newnew.files
-  (:use leiningen.newnew.templates)
+(ns leiningen.create.files
+  (:use leiningen.create.templates)
   (:require [clojure.java.io :as io])
   (:import java.util.jar.JarFile))
 

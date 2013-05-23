@@ -1,4 +1,4 @@
-(ns leiningen.newnew.generate
+(ns leiningen.create.generate
   (:use [clojure.string :only [split join]])
   (:require [clojure.java.io :as io]
             [clojure.string :as string]

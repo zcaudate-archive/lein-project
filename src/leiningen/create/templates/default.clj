@@ -1,6 +1,6 @@
-(ns leiningen.new.default
+(ns leiningen.create.default
   "Generate a basic application project."
-  (:use [leiningen.newnew.templates :only [year project-name
+  (:use [leiningen.create.utils :only [year project-name
                                         sanitize-ns name-to-path]]))
 (defn default
   "A general project template for libraries.

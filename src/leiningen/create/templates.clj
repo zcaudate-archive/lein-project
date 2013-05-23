@@ -1,4 +1,4 @@
-(ns leiningen.newnew.templates
+(ns leiningen.create.templates
   (:require [clojure.java.io :as io]
             [clojure.string :as string]))
 

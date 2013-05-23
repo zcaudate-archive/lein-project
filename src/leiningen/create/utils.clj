@@ -8,7 +8,7 @@
 ;; * an easy way to generate files and namespaces
 ;; * a way to render files written with a flexible template language
 ;; * a way to get those files off of the classpath transparently
-(ns leiningen.new.templates
+(ns leiningen.create.utils
   (:require [clojure.java.io :as io]
             [clojure.string :as string]
             [stencil.core :as stencil]))

@@ -1,9 +1,9 @@
-(ns leiningen.new
+(ns leiningen.create
   "Generate project scaffolding based on a template."
   (:refer-clojure :exclude [new list])
-  (:use [leiningen.new.templates :only [*dir*]])
+  (:use [leiningen.create.templates :only [*dir*]])
   (:require [bultitude.core :as bultitude]
-            [leiningen.newnew.generate :as gen])
+            [leiningen.create.generate :as gen])
   (:import java.io.FileNotFoundException))
 
 (defn abort

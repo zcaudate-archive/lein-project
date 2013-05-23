@@ -1,5 +1,5 @@
-(ns leiningen.new.template
-  (:use [leiningen.newnew.templates :only [sanitize year]]))
+(ns leiningen.create.templates.template
+  (:use [leiningen.create.utils :only [sanitize year]]))
 
 (defn template
   "A meta-template for 'lein new' templates."
